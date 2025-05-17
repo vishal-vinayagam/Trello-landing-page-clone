@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trello Clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <i class="fa-brands fa-trello fa-bounce" style="color: #0766e0;"></i> Trello
+  </div>
+  <nav>
+   <a href="#"><button class="hover-reveal-btn">Log in</button></a>
+    <a href="#"><button class="btn signup-btn">Sign up</button></a>
+  </nav>
+</header>
+
+<!--Hero section-->
+  <section class="hero">
+  <div class="hero-content">
+    <h1>Trello helps teams move work forward.</h1>
+    <p>Collaborate, manage projects, and reach new productivity peaks.<br> From high rises to the home office, your team’s unique workflow is<br> built with Trello.</p>
+    <div class="form-group">
+      <input type="email" placeholder="Email">
+      <button>Sign up – it's free!</button>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="images/hero.png" alt="Trello workspace">
+  </div>
+</section>
+
+<!--feature -->
+ <section class="features">
+  <div class="features-content">
+    <h2>It's more than work. It's a way of working together.</h2>
+    <p>
+      Start with a Trello board, list, and cards. Customize and expand with more features as your<br>
+      teamwork grows. Manage projects, organize tasks, and build team spirit — all in one place.
+    </p>
+    <a href="#"><button class="start-btn">Start doing →</button></a>
+  </div>
+  <div class="features-image">
+    <img src="images/feature.png" alt="Trello features">
+  </div>
+</section>
+<!--icons-->
+
+<section class="trusted-by">
+  <p class="trusted-text"style="font-wight: 300;font-size: 25px;">
+    Join over 1,000,000 teams worldwide that are using Trello to get more done.
+  </p>
+  <div class="logo-grid">
+   <a href="google.com"><img src="images/google.png" alt="Google Logo"></a>
+    <a href="fender.com"><img src="images/fen.png" alt="Fender Logo"></a>
+    <a href="Squarespace"><img src="images/square.png" alt="Squarespace Logo"></a>
+    <a href="Costco"><img src="images/cost.png" alt="Costco Logo"></a>
+  </div>
+</section>
+<!--more ifo-->
+
+<section class="info-block reverse">
+  <div class="info-text">
+  <h3>Features to help your team <br> succeed</h3>
+  <p>
+    Powering a productive team means using a powerful<br>
+    tool (and plenty of snacks). From meetings and projects<br>
+    to even events and goal setting, Trello's intuitive features give<br>
+    any team the ability to quickly set up and customize<br>
+    workflow for just about anything.
+  </p>
+  </div>
+</section>
+
+<!-- 1st block: image left, text right -->
+<section class="info-block">
+  <div class="info-image">
+    <img src="images/feature-block-1.png" alt="Choose a View Feature" />
+  </div>
+  <div class="info-text">
+    <h5>CHOOSE A VIEW</h5>
+    <h3>The board is just the beginning</h3>
+    <p>
+      Lists and cards are the building blocks of organizing work on a<br> Trello board. 
+      Grow from there with task assignments, timelines,<br> productivity metrics, calendars, and more.
+    </p>
+    <p class="extra-content">
+      With the right view, teams can easily visualize priorities, deadlines, and workloads, improving coordination and efficiency.
+    </p>
+    <a class="toggle-more">+ Learn More</a>
+  </div>
+</section>
+
+<!-- 2nd block: image right, text left -->
+<section class="info-block reverse">
+  <div class="info-image">
+    <img src="images/feature-block-2.png" alt="Automation Feature" />
+  </div>
+  <div class="info-text">
+    <h5>DIVE INTO THE DETAILS</h5>
+    <h3>Cards contain everything you need</h3>
+    <p>
+    Trello cards are your portal to more organized work-where every<br>
+    single part of your task can be managed, tracked, and shared with<br>
+    teammates. Open any card to uncover an ecosystem of checklists,<br>
+    due dates, attachments, conversation, and more. 
+    </p>
+    <p class="extra-content">
+      Automation helps teams stay focused on what matters most, by reducing errors and boosting overall productivity.
+    </p>
+    <a class="toggle-more">+ Learn More</a>
+  </div>
+</section>
+
+<!-- 3rd block: image left, text right -->
+<section class="info-block">
+  <div class="info-image">
+    <img src="images/feature-block-3.png" alt="Collaborate Feature" />
+  </div>
+  <div class="info-text">
+    <h5>MEET YOUR NEW BUTLER</h5>
+    <h3>No-code automation</h3>
+    <p>
+    Let the robots do the work-so your team can focus on work that <br>
+    matters. With Trello's built-in automation, Butler, reduce the <br>
+    number of tedious tasks (and clicks) on your project board by<br>
+    harnessing the power of automation across your entire team. 
+    </p>
+    <p class="extra-content">
+      Collaboration is key to success. With integrated chat and notifications, teams never miss important updates.
+    </p>
+    <a class="toggle-more">+ Learn More</a>
+  </div>
+</section>
+
+<section class="info-block reverse">
+  <div class="info-image">
+    <img src="images/feature-block-4.png" alt="Automation Feature" />
+  </div>
+  <div class="info-text">
+    <h5>POWER-UPS</h5>
+    <h3>Integrate top work tools</h3>
+    <p>
+    Easily connect the app your team already uses into your Trello<br>
+    workflow, or add a Power-Up that helps fine-tune one specific<br>
+    need. With hundreds of Power-Ups available, your team's workflow<br>
+    wishes are covered. 
+    </p>
+    <p class="extra-content">
+      Automation helps teams stay focused on what matters most, by reducing errors and boosting overall productivity.
+    </p>
+    <a class="toggle-more">+ Learn More</a>
+  </div>
+</section>
+
+<!--two images-->
+<section class="features-section">
+  <div class="features-wrapper">
+
+    <hr class="features-hr">
+
+    <div class="features-container">
+
+      <!-- Left Feature -->
+      <div class="feature-box">
+        <img src="images/tag.png" alt="Tag Icon" class="feature-image">
+        <div class="feature-text">
+          <h3>See our pricing</h3>
+          <p>Whether you’re a team of 2 or 2,000,<br> there’s a Trello tailor-made for your<br> organization.</p>
+          <a href="#"><button class="feature-btn">Trello pricing</button></a>
+        </div>
+      </div>
+
+      <!-- Right Feature -->
+      <div class="feature-box">
+        <img src="images/campes.png" alt="Compass Icon" class="feature-image">
+        <div class="feature-text">
+          <h3>Take a Trello tour</h3>
+          <p>Explore the world of boards and beyond<br> in Trello. Dive deeper into our most<br> popular features.</p>
+          <a href="#"><button class="feature-btn">Tour Trello</button></a>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="features-hr">
+
+  </div>
+</section>
+
+<!--slider-->
+
+<section class="testimonial-section">
+  <div class="testimonial-slider">
+
+    <div class="testimonial-slide active">
+      <div class="testimonial-left">
+        <img src="images/fir.png" alt="Logo">
+        <p class="industry-label">INDUSTRY</p>
+        <p class="industry-name">NexaTech</p>
+      </div>
+
+      <div class="testimonial-right">
+        <p class="quote">❝Innovation doesn't happen by <br>chance — it's the result of curiosity guided<br> by purpose.</p>
+        <p class="author-name">Sarah Lin</p>
+        <p class="author-title">Founder of NexaTech </p>
+      </div>
+    </div>
+     <div class="testimonial-slide active">
+      <div class="testimonial-left">
+        <img src="images/sec.png" alt="Logo">
+        <p class="industry-label">INDUSTRY</p>
+        <p class="industry-name">PixelPulse</p>
+      </div>
+
+      <div class="testimonial-right">
+        <p class="quote">❝Design is not just how it<br> looks — it's how it works,<br> feels, and empowers the user.</p>
+        <p class="author-name"> David Moreno</p>
+        <p class="author-title">Lead Designer at PixelPulse</p>
+      </div>
+    </div>
+     <div class="testimonial-slide active">
+      <div class="testimonial-left">
+        <img src="images/industry.png" alt="Logo">
+        <p class="industry-label">INDUSTRY</p>
+        <p class="industry-name">Sport</p>
+      </div>
+
+      <div class="testimonial-right">
+        <p class="quote">❝ Trello makes it easy to keep everyone on the same page. As changes happen, the real-time updates with email notifications have been key.</p>
+        <p class="author-name">HAYDON DOTSON</p>
+        <p class="author-title">Sales Manager, Detroit Red Wings</p>
+      </div>
+    </div>
+     <div class="testimonial-slide active">
+      <div class="testimonial-left">
+        <img src="images/industry.png" alt="Logo">
+        <p class="industry-label">INDUSTRY</p>
+        <p class="industry-name">Sport</p>
+      </div>
+
+      <div class="testimonial-right">
+        <p class="quote">❝ Trello makes it easy to keep everyone on the same page. As changes happen, the real-time updates with email notifications have been key.</p>
+        <p class="author-name">HAYDON DOTSON</p>
+        <p class="author-title">Sales Manager, Detroit Red Wings</p>
+      </div>
+    </div>
+
+
+    <!-- Add more slides  -->
+
+    <hr class="slider-hr">
+
+    <div class="slider-controls">
+      <button class="arrow-btn" id="prev-btn">←</button>
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <button class="arrow-btn" id="next-btn">→</button>
+    </div>
+
+  </div>
+</section>
+
+<!--backgrpound-->
+<section class="cta">
+  <div class="cta-overlay">
+    <input type="email" class="cta-input">
+    <button class="cta-btn">Sign up</button>
+  </div>
+</section>
+
+<!--footer-->
+<footer class="footer">
+    <div class="footer-top">
+      <p>Trello also works great on your smaller screen.</p>
+      <div class="store-buttons">
+        <img src="images/apple.png" alt="App Store" class="store-img"/>
+        <img src="images/play.png" alt="Google Play" class="store-img"/>
+      </div>
+    </div>
+
+    <div class="footer-middle">
+      <select id="languageSelect">
+        <option value="en">English (US)</option>
+        <option value="ta">தமிழ் (Tamil)</option>
+        <option value="hi">हिन्दी (Hindi)</option>
+        <option value="es">Español</option>
+      </select>
+    </div>
+
+    <div class="footer-links">
+      <a href="#">Templates</a>
+      <a href="#">Pricing</a>
+      <a href="#">Apps</a>
+      <a href="#">Jobs</a>
+      <a href="#">Blog</a>
+      <a href="#">Developers</a>
+      <a href="#">About</a>
+      <a href="#">Help</a>
+      <a href="#">Legal</a>
+      <a href="#">Cookie Settings</a>
+      <a href="#">Privacy</a>
+    </div>
+
+   <div class="footer-bottom">
+  <a href="#"><img src="images/at.png" alt="Atlassian Logo" class="footer-logo" /></a>
+  <p>&copy; Copyright 2021. All rights reserved.</p>
+</div>
+
+  </footer>
+
+  <script src="script.js">
+
+
+  </script>
+</body>
+</html>
